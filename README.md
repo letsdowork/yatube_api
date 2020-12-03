@@ -1,5 +1,5 @@
 # Yatube API
-## Предоставляет API сервиса для публикации личных дневников.
-### Для авторизации используется токен jwt. Вы можете получить его, выполнив POST-запрос с полями "username" и "password". При отправке запроса передайте токен в заголовок Authorization: Bearer <token>.
-Проект основан на Django Framework, для запуска на локальной машине используйте команду: python manage.py runserver
-Подробная документация по API доступна по локальному адресу 127.0.0.1/redoc.
+## Provides the service's API for publishing personal diaries.
+The JWT token is used for authorization. You can get it by making a POST request with the "username" and "password" fields. When sending the request, pass the token to the authorization: Bearer <token> header.
+The project is based on the Django Framework. to run it on a local machine, use the command: python manage.py runserver.
+Detailed API documentation is available at the local address 127.0.0.1/redoc.
